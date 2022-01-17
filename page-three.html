@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>page-three</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <style>
+        body {
+            background: url('./img/background-three.jpg') fixed center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <button class="header-font"><a href="index.html">ГЛАВНАЯ</a></button>
+    <button class="header-font"><a href="page-two.html">УСЛУГИ</a></button>
+    <button class="header-font"><a href="page-four.html">БЛОГ</a></button>
+    <button class="header-font"><a href="page-five.html">ЛИТЕРАТУРА</a></button>
+</div>
+
+<div class="content-container">
+    <div class="text-container">
+        <h2>Заполните пожалуйста форму:</h2>
+        <form action="#" method="post">
+            <div>Имя</div>
+            <input class="registration-input-style" type="text" name='user-name' placeholder="Введите имя">
+
+            <div class="font-bold" style="width: 30%">Телефон
+                <input class="registration-input-style" type="tel" name='user-phone' placeholder="+375 XX XXX XX XX ">
+            </div>
+            <div class="font-bold" style="width: 30%">E-mail
+                <input class="registration-input-style" type="email" name='user-email' placeholder="example@gmail.com">
+            </div>
+
+            <div>
+                <div class="font-bold">Введите Ваш запрос</div>
+                <textarea class="registration-input-style" rows="3" cols="45" name="text"></textarea>
+            </div>
+
+            <div>
+                <button class="registration-button-style BLUE" type="submit">Отправить</button>
+                <button class="registration-button-style RED" type="reset">Очистить</button>
+            </div>
+        </form>
+    </div>
+    <div class="img-container img-page-go"></div>
+</div>
+
+</body>
+</html>

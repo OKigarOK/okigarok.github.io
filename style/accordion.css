@@ -1,0 +1,38 @@
+.accordion {
+    background-color: #572821;
+    color: white;
+    font-family: "Century Gothic",serif;
+    font-size: 2vw;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.active {
+    background-color: #572821;
+    color: white;
+}
+
+.accordion:hover {
+    background-color: white;
+    color: #572821;
+}
+
+.panel {
+    width: Calc(100% - 60px);
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: #2f1a11;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-radius: 0 0 20px 20px;
+}
